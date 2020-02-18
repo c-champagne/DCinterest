@@ -8,3 +8,15 @@ ul.navbar-nav {
     justify-content: flex-end;
     flex-direction: row;
 }
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+}
+
+.card {
+    width: 200px;
+    height: auto;
+    padding: 10px;
+}
