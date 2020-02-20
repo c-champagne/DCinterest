@@ -1,12 +1,19 @@
-span.navbar-text {
+.navbar {
     display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+}
+.navbar-text {
+    display: flex;
+    flex-direction: row;
     justify-content: flex-start;
+    align-self: flex-start;
 }
 
 ul.navbar-nav {
     display: flex;
-    justify-content: flex-end;
     flex-direction: row;
+    justify-content: flex-end;
 }
 
 li.nav-item {
@@ -30,4 +37,5 @@ li.nav-item {
     display: flex;
     flex-wrap: wrap;
     width: 70%;
+    justify-content: space-around;
 }
